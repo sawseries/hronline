@@ -1,0 +1,14 @@
+{
+    "autoload" : {
+        "files": ["app/globals/Helpers.php","app/config/session.php"],
+        "psr-4": {
+            "verify\\" : "app/"
+        }
+    },
+    "require": {
+        "league/route": "^4.5",
+        "altorouter/altorouter": "^2.0",
+        "phpmailer/phpmailer": "^6.6",
+        "league/oauth2-google": "^4.0"
+    }
+}
